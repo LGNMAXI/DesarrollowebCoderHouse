@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../Css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -22,13 +23,8 @@
 
     <body>
         <header>
-
             <div class="nav-top-menu-container">
-                <div class="nav-top-menu-container__logo-container" id="inicio">
-                    <div class=nav-top-menu-container__logo-container__logo>
-                        <a href="../index.html"><img src="../Media/logo.png"></a>
-                    </div>
-                </div>
+
                 <div class="nav-top-menu-container__nightmode-switch-container">
                     <label class="nav-top-menu-container__nightmode-switch-container__switch">
                         <input class="nav-top-menu-container__nightmode-switch-button" type="checkbox"><i class="far fa-lightbulb"></i>
@@ -36,22 +32,55 @@
                     </label>
                 </div>
                 <ul class="nav-top-menu-container__ul">
-                    <li class="nav-top-menu-container__ul__li"><a href="$"><i class="fas fa-laptop"></i></a></li>
-                    <li class="nav-top-menu-container__ul__li"><a href="$"><i class="far fa-envelope"></i></a></li>
+                    <li class="nav-top-menu-container__ul__li"><a href="#"><i class="fas fa-laptop"></i></a></li>
+                    <li class="nav-top-menu-container__ul__li"><a href="#"><i class="far fa-envelope"></i></a></li>
                     <li class="nav-top-menu-container__ul__li"><a href="../index.html">ENG</a></li>
                     <li class="nav-top-menu-container__ul__li"><a href="../index.html">ESP</a></li>
                 </ul>
             </div>
-            
+
+                <nav class="navbar navbar-expand-lg navbar-light mr-auto ">
+                    <a class="navbar-brand" href="index.html"><img src="../Media/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../index.html">INICIO </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../Pages/profesionales.html">PROFESIONALES</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../Pages/contenido.html">CONTENIDO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/contacto.html">CONTACTO</a>
+                            </li>
+
+                        </ul>
+                </nav>
+            </div>
+
+
+
+
+
+<!--
             
             <nav class="nav-links-container">
                 <ul class="nav-links-container__ul">
-                    <li class="nav-links-container__ul__li"><a href="../Pages/profesionales.html">PROFESIONALES</li></a>
-                    <li class="nav-links-container__ul__li"><a href="../Pages/contenido.html">CONTENIDO</li></a>
-                    <li class="nav-links-container__ul__li"><a href="../Pages/nosotros.html">NOSOTROS</li></a>
-                    <li class="nav-links-container__ul__li"><a href="../Pages/contacto.html">CONTACTO</li></a>
+                    <li class="nav-links-container__ul__li"><a href="./Pages/profesionales.html">PROFESIONALES</li></a>
+                    <li class="nav-links-container__ul__li"><a href="./Pages/contenido.html">CONTENIDO</li></a>
+                    <li class="nav-links-container__ul__li"><a href="./Pages/nosotros.html">NOSOTROS</li></a>
+                    <li class="nav-links-container__ul__li"><a href="./Pages/contacto.html">CONTACTO</li></a>
                 </ul>
-            </nav>
+            </nav>-->
         </header>
 
     <main>
@@ -118,39 +147,71 @@
         </main>
         
         
-        <footer class="footer-container">
+        <footer class="page-footer bg-dark">
 
-            <div class="info-footer-container">
-                <p>BUENOS AIRES</p>
-                <p>Av. Calle / Dirección 0000</p>
-                <p>(Cod. Postal) Buenos Aires, Argentina</p>
-                <p>Tel. (+54) 011 - 1111.1111</p>
+            <div class="container text-center text-md-left -mt-5 bg-dark">
+                <div class="row">
+                    <div class="col-md-3 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold mt-4 text-light">NOSOTROS</h6>
+                        <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 87px; height: 2px;">
+                        <p class="mt-2 text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ea enim libero veniam amet minima. Culpa assumenda molestias quaerat laborum delectus. Explicabo nemo rem porro deleniti, modi minima necessitatibus est.</p>
+                    </div>
+
+
+                    <div class="col-md-2 mx-auto mb-4 mt-4">
+                        <h6 class="text-uppercase font-weight-bold text-light">LINKS</h6>
+                        <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 50px; height: 2px;">
+                        <ul class="list-unstyled">
+                            <li class="my-2 text-light"><a href="../index.html" class="text-decoration-none text-light">INICIO</a></li>
+                            <li class="my-2 text-light"><a href="../Pages/profesionales.html" class="text-decoration-none text-light">PROFESIONALES</a></li>
+                            <li class="my-2 text-light"><a href="../Pages/contenido.html" class="text-decoration-none text-light">CONTENIDO</a></li>
+                            <li class="my-2 text-light"><a href="../Pages/nosotros.html" class="text-decoration-none text-light">NOSOTROS</a></li>
+                            <li class="my-2 text-light"><a href="../Pages/contacto.html" class="text-decoration-none text-light">CONTACTO</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mx-auto mb-4 mt-4">
+                        <h6 class="text-uppercase font-weight-bold text-light">CONTACTO</h6>
+                        <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 87px; height: 2px;">
+                        <ul class="list-unstyled">
+                            <li class="my-2 text-light"><i class="fas fa-globe-americas text-light mr-2"></i>Argentina, Buenos Aires</li>
+                            <li class="my-2 text-light"><i class="far fa-building text-light mr-2"></i>Av. Dirección 0000</li>
+                            <li class="my-2 text-light"><i class="far fa-envelope text-light mr-2"></i>email@email.com</li>
+                            <li class="my-2 text-light"><i class="fas fa-phone text-light mr-2"></i>(+54) 011 - 1111.1111</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="footer-contact-container">
-                <p>CONTACTO</p>
-                
-                <ul class="contact-footer-container__ul">
-                    <li class="contact-footer-container__ul__li"><a href="https://facebook.com/estudio"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="contact-footer-container__ul__li"><a href="https://twitter.com/estudio"><i class="fab fa-twitter"></i></a></li>
-                    <li class="contact-footer-container__ul__li"><a href="https://instagram.com/estudio"><i class="fab fa-instagram"></i></a></li>
-                    <li class="contact-footer-container__ul__li"><a href="https://youtube.com/estudio"><i class="fab fa-youtube"></i></a></li>
-                    <li class="contact-footer-container__ul__li"><a href="https://linkedin.com/estudio"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="contact-footer-container__ul__li"><a href="https://spotify.com/estudio"><i class="fab fa-spotify"></i></a></li>
-                </ul>
+            <div class="footer-icon">
+                <div class="container">    
+                    <div class="row py-3  d-flex aling-items-center "></div>
+
+                        <div class="col-md-12 text-center">
+                            <a href="https://facebook.com/estudio"><i class="fab fa-facebook-f text-white mr-5 mb-4 h3"></i></a>
+                            <a href="https://twitter.com/estudio"><i class="fab fa-twitter text-white mr-5 mb-4 h3"></i></a>
+                            <a href="https://instagram.com/estudio"><i class="fab fa-instagram text-white mr-5 mb-4 h3"></i></a>
+                            <a href="https://youtube.com/estudio"><i class="fab fa-youtube text-white mr-5 mb-4 h3"></i></a>
+                            <a href="https://linkedin.com/estudio"><i class="fab fa-linkedin text-white mr-5 mb-4 h3"></i></a>
+                            <a href="https://spotify.com/estudio"><i class="fab fa-spotify text-white mb-4 h3"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="terms-container">
-                <p> © 2021 - Estudio Jurídico XXXXXX. Todos los derechos reservados. Prohibida su reproducción parcial y/o total sin su autorización. </p>
-            </div>
 
-            <div class="tothetop-button-container">
-                <a class="tothetop-button-container__button" href="#inicio"><i class="far fa-arrow-alt-circle-up"></i></a>
-            </div>
 
+            <div class="footer-copyright text-center py-3 text-white">
+                <p class="text-white">&copy; Copyright
+                    <a href="#">dominio.com</a>
+                </p>
+            </div>
 
         </footer>
-
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     </body>
 
 </html>

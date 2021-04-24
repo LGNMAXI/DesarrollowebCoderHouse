@@ -27,30 +27,66 @@
         /* INICIO LOGO */
 
 .nav-top-menu-container__logo-container {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 }
 
 .nav-top-menu-container__logo-container__logo img {
-    width: 200px;
-    height: 200px;
+    width: 20px;
+    height: 20px;
     margin: 25px;
     position: absolute;
     left: 30px;
 
 }
+        /* FIN LOGO */ 
+        
+/*BOOTSTRAP NAV. */
+.navbar {
+    padding: 20px 0 ;
+}
 
-.nav-top-menu-container__ul {
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    margin: 0px 30px 0px 0px;
+.navbar-brand img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav-item {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background: rgb(59, 59, 59);
+    color: rgb(241, 241, 217);
+
+}
+
+.navbar-light  .navbar-nav .nav-item .nav-link {
+    color:rgb(59, 59, 59);
+    padding: 20px 10px;
+    transition: 0.6s;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: rgb(241, 241, 217);
+    border: 2px solid rgb(0, 0, 43) ;
+    border-radius: 0;
+    outline: none;
+}
+
+.navbar-collapse {
+    background: rgb(255, 255, 255);
 }
 
 
-        /* FIN LOGO */ 
+/*FIN NAV BOOSTRAP RESPONSIVE*/
 
         /* INICIO SWITCH NIGHTMODE */
+
+
 
 .nav-top-menu-container__nightmode-switch-button {
     position: absolute;
@@ -137,7 +173,7 @@
 }
 
 .nav-links-container__ul__li:hover {
-    background: rgb(59, 59, 59);
+    background: rgb(59, 59, 59)  ;  
 }
 
 .nav-links-container__ul__li:hover a{
@@ -195,11 +231,30 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: rgb(70, 0, 0);
+    background: rgb(1, 1, 37);
     color: rgb(241, 241, 217);
     box-shadow: 0 0 18px rgb(132, 132, 132) ;
 
 }
+
+        /* RESPONSIVE BARRA DE BUSQUEDA */
+
+@media screen and (max-width:992px){
+    .text { width: 274px;
+        height: 65px;
+        margin: 0 -50px 0 0;
+        position: absolute;
+        display: inline-block;
+    }
+    .submit {
+        margin: 0px 0px 0px  -200px;
+        position: relative;
+        display: inline-block;
+        margin: 75px 0 0 -850px;
+    }
+}
+
+
     /*FIN BARRA DE BUSQUEDA*/
 
 
@@ -284,7 +339,7 @@
 }
 
 .newsletter-container__input-container i {
-    background: rgb(61, 0, 0);
+    background: rgb(0, 0, 51);
     width: 40px;
     line-height: 40px;
     color: rgb(241, 241, 217);
@@ -308,7 +363,7 @@
 
 
 .newsletter-container__input-container__button {
-    background: rgb(61, 0, 0);
+    background: rgb(0, 0, 50);
     color:rgb(241, 241, 217);
     width: 150px;
     cursor: pointer;
@@ -355,7 +410,7 @@
     display: inline-block;
     text-align: right;
     margin-right: 30px;
-    color: rgb(70, 0, 0);
+    color: rgb(0, 0, 70);
 }
 
 .contact-footer-container__ul__li{
@@ -397,6 +452,19 @@
 
 }
         /* FIN SCROLL TO TOP */
+        /*FOOTER BOOTSTRAP*/
+
+.footer-icon {
+    background:rgb(0, 0, 36);
+}
+.footer-copyright {
+    background: rgb(0, 0, 25);
+}
+.page-footer {
+    background: #ffffff  ;
+}
+
+
     /* FIN FOOTER*/
 /*FIN STYLE INDEX.HTML */
 
@@ -438,7 +506,7 @@
     border: none;
     outline: none;
     margin: 10px;
-    border-bottom: 3px solid rgb(70, 0, 0);
+    border-bottom: 3px solid rgb(1, 1, 32);
     
 }
     /*FIN FORMULARIO CONTAINER / INPUTS */
@@ -452,7 +520,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: rgb(70, 0, 0);
+    background: rgb(4, 4, 37);
     color: #fff;
     margin-top: 30px;
 }
