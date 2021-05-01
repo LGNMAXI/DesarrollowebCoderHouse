@@ -398,7 +398,10 @@
 .grid-container {
   display: grid;
   margin: 10px;
-  grid-template-areas: "texto form form" "texto form form" "mapa form form" "mapa form form"; }
+  grid-template-areas: "texto form form"
+ "texto form form"
+ "mapa form form"
+ "mapa form form"; }
 
 /* FIN GRID CONTACTO */
 /* INICIO FORMULARIO CONTAINER / INPUTS */
@@ -780,7 +783,8 @@
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "img1 img2" "img3 img4";
+  grid-template-areas: "img1 img2"
+ "img3 img4";
   justify-content: center;
   background-color: rgba(161, 161, 161, 0.192); }
 
