@@ -1,4 +1,5 @@
 @import "_variables_colores";
+@import "_variables_sumas";
 
 
 
@@ -30,8 +31,8 @@
         /* INICIO LOGO */
 
 .nav-top-menu-container__logo-container {
-    width: 75px;
-    height: 75px;
+    width: $width-2 + $width-1 + $width-4;                  /*  75px;*/
+    height: $width-3 - $width-1 - $width-1 - $width-4;  /*  75px;*/
 }
 
 .nav-top-menu-container__logo-container__logo img {
