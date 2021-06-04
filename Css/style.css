@@ -20,7 +20,9 @@
 /* INICIO LOGO */
 .nav-top-menu-container__logo-container {
   width: 75px;
-  height: 75px; }
+  /*  75px;*/
+  height: 75px;
+  /*  75px;*/ }
 
 .nav-top-menu-container__logo-container__logo img {
   width: 20px;
@@ -251,7 +253,7 @@
 /*NOTA: PARA HACER CARRUSEL AUTOMÁTICO Y MANUAL ES NECESARIO JQuery o Java Script*/
 /* INICIO NEWSLETTER */
 .newsletter-container {
-  background: url(../Media/nwsltt.png) no-repeat center;
+  background: url(../media/nwsltt.png) no-repeat center;
   background-size: 300px 700px;
   background-size: cover;
   padding: 100px 40px;
@@ -310,57 +312,6 @@
   text-align: right;
   bottom: 0; }
 
-/* INICIO DATOS FOOTER */
-/*ESTE ESTILO ES REEMPLAZADO POR FOOTER CON BOOSTRAP
-.info-footer-container p {
-    text-align: left;
-    font-weight:lighter;
-    font-size: large;
-    font: 900;
-    display: block;
-    margin-left: 50px;
-    color: rgb(70, 0, 0);
-
-}
-
-.footer-contact-container p {
-    display: block;
-    margin: -70px 100px 0px 0px;
-    font: 900;
-    font-size: 20px;
-    margin-right: 150px; 
-    color: rgb(70, 0, 0);
-}*/
-/* FIN DATOS FOOTER */
-/* INICIO CONTACTO/REDES FOOTER*/
-/*ESTE ESTILO ES REEMPLAZADO POR FOOTER CON BOOSTRAP
-.contact-footer-container__ul {
-    display: inline-block;
-    text-align: right;
-    margin-right: 30px;
-    color: rgb(0, 0, 70);
-}
-
-.contact-footer-container__ul__li{
-    display: inline-block;
-    text-align: right;
-    margin: 15px 18px;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(70, 0, 0);
-}
-
-.contact-footer-container__ul__li i{
-    color: rgb(70, 0, 0);
-}*/
-/* FIN CONTACTO/REDES FOOTER */
-/*ESTE ESTILO ES REEMPLAZADO POR FOOTER CON BOOSTRAP
-.terms-container p {
-    text-align: left;
-    font-size: smaller;
-    display: block;
-    margin: 30px 0px 0px 50px
-}*/
 /* SCROLL TO TOP FOOTER */
 .tothetop-button-container__button i {
   display: flex;
@@ -398,10 +349,7 @@
 .grid-container {
   display: grid;
   margin: 10px;
-  grid-template-areas: "texto form form"
- "texto form form"
- "mapa form form"
- "mapa form form"; }
+  grid-template-areas: "texto form form" "texto form form" "mapa form form" "mapa form form"; }
 
 /* FIN GRID CONTACTO */
 /* INICIO FORMULARIO CONTAINER / INPUTS */
@@ -783,8 +731,7 @@
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "img1 img2"
- "img3 img4";
+  grid-template-areas: "img1 img2" "img3 img4";
   justify-content: center;
   background-color: rgba(161, 161, 161, 0.192); }
 
